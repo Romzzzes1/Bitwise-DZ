@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B17D93C1D195AA300A08842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17D93B1D195AA300A08842 /* main.m */; };
+		1B17D93F1D195AA300A08842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17D93E1D195AA300A08842 /* AppDelegate.m */; };
+		1B17D9421D195AA300A08842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17D9411D195AA300A08842 /* ViewController.m */; };
+		1B17D9451D195AA300A08842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B17D9431D195AA300A08842 /* Main.storyboard */; };
+		1B17D9471D195AA300A08842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B17D9461D195AA300A08842 /* Assets.xcassets */; };
+		1B17D94A1D195AA300A08842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B17D9481D195AA300A08842 /* LaunchScreen.storyboard */; };
+		1B17D9551D195AA300A08842 /* Bitwise_DZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17D9541D195AA300A08842 /* Bitwise_DZTests.m */; };
+		1B17D9601D195AA300A08842 /* Bitwise_DZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B17D95F1D195AA300A08842 /* Bitwise_DZUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B17D9511D195AA300A08842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B17D92F1D195AA300A08842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B17D9361D195AA300A08842;
+			remoteInfo = "Bitwise DZ";
+		};
+		1B17D95C1D195AA300A08842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B17D92F1D195AA300A08842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B17D9361D195AA300A08842;
+			remoteInfo = "Bitwise DZ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B17D9371D195AA300A08842 /* Bitwise DZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitwise DZ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17D93B1D195AA300A08842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B17D93D1D195AA300A08842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B17D93E1D195AA300A08842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B17D9401D195AA300A08842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B17D9411D195AA300A08842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B17D9441D195AA300A08842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B17D9461D195AA300A08842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B17D9491D195AA300A08842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B17D94B1D195AA300A08842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B17D9501D195AA300A08842 /* Bitwise DZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitwise DZTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17D9541D195AA300A08842 /* Bitwise_DZTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitwise_DZTests.m; sourceTree = "<group>"; };
+		1B17D9561D195AA300A08842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B17D95B1D195AA300A08842 /* Bitwise DZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bitwise DZUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17D95F1D195AA300A08842 /* Bitwise_DZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitwise_DZUITests.m; sourceTree = "<group>"; };
+		1B17D9611D195AA300A08842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B17D9341D195AA300A08842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D94D1D195AA300A08842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D9581D195AA300A08842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B17D92E1D195AA300A08842 = {
+			isa = PBXGroup;
+			children = (
+				1B17D9391D195AA300A08842 /* Bitwise DZ */,
+				1B17D9531D195AA300A08842 /* Bitwise DZTests */,
+				1B17D95E1D195AA300A08842 /* Bitwise DZUITests */,
+				1B17D9381D195AA300A08842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B17D9381D195AA300A08842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B17D9371D195AA300A08842 /* Bitwise DZ.app */,
+				1B17D9501D195AA300A08842 /* Bitwise DZTests.xctest */,
+				1B17D95B1D195AA300A08842 /* Bitwise DZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B17D9391D195AA300A08842 /* Bitwise DZ */ = {
+			isa = PBXGroup;
+			children = (
+				1B17D93D1D195AA300A08842 /* AppDelegate.h */,
+				1B17D93E1D195AA300A08842 /* AppDelegate.m */,
+				1B17D9401D195AA300A08842 /* ViewController.h */,
+				1B17D9411D195AA300A08842 /* ViewController.m */,
+				1B17D9431D195AA300A08842 /* Main.storyboard */,
+				1B17D9461D195AA300A08842 /* Assets.xcassets */,
+				1B17D9481D195AA300A08842 /* LaunchScreen.storyboard */,
+				1B17D94B1D195AA300A08842 /* Info.plist */,
+				1B17D93A1D195AA300A08842 /* Supporting Files */,
+			);
+			path = "Bitwise DZ";
+			sourceTree = "<group>";
+		};
+		1B17D93A1D195AA300A08842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B17D93B1D195AA300A08842 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B17D9531D195AA300A08842 /* Bitwise DZTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B17D9541D195AA300A08842 /* Bitwise_DZTests.m */,
+				1B17D9561D195AA300A08842 /* Info.plist */,
+			);
+			path = "Bitwise DZTests";
+			sourceTree = "<group>";
+		};
+		1B17D95E1D195AA300A08842 /* Bitwise DZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B17D95F1D195AA300A08842 /* Bitwise_DZUITests.m */,
+				1B17D9611D195AA300A08842 /* Info.plist */,
+			);
+			path = "Bitwise DZUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B17D9361D195AA300A08842 /* Bitwise DZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17D9641D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZ" */;
+			buildPhases = (
+				1B17D9331D195AA300A08842 /* Sources */,
+				1B17D9341D195AA300A08842 /* Frameworks */,
+				1B17D9351D195AA300A08842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bitwise DZ";
+			productName = "Bitwise DZ";
+			productReference = 1B17D9371D195AA300A08842 /* Bitwise DZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B17D94F1D195AA300A08842 /* Bitwise DZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17D9671D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZTests" */;
+			buildPhases = (
+				1B17D94C1D195AA300A08842 /* Sources */,
+				1B17D94D1D195AA300A08842 /* Frameworks */,
+				1B17D94E1D195AA300A08842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B17D9521D195AA300A08842 /* PBXTargetDependency */,
+			);
+			name = "Bitwise DZTests";
+			productName = "Bitwise DZTests";
+			productReference = 1B17D9501D195AA300A08842 /* Bitwise DZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B17D95A1D195AA300A08842 /* Bitwise DZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17D96A1D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZUITests" */;
+			buildPhases = (
+				1B17D9571D195AA300A08842 /* Sources */,
+				1B17D9581D195AA300A08842 /* Frameworks */,
+				1B17D9591D195AA300A08842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B17D95D1D195AA300A08842 /* PBXTargetDependency */,
+			);
+			name = "Bitwise DZUITests";
+			productName = "Bitwise DZUITests";
+			productReference = 1B17D95B1D195AA300A08842 /* Bitwise DZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B17D92F1D195AA300A08842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roman Popov";
+				TargetAttributes = {
+					1B17D9361D195AA300A08842 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1B17D94F1D195AA300A08842 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B17D9361D195AA300A08842;
+					};
+					1B17D95A1D195AA300A08842 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B17D9361D195AA300A08842;
+					};
+				};
+			};
+			buildConfigurationList = 1B17D9321D195AA300A08842 /* Build configuration list for PBXProject "Bitwise DZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B17D92E1D195AA300A08842;
+			productRefGroup = 1B17D9381D195AA300A08842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B17D9361D195AA300A08842 /* Bitwise DZ */,
+				1B17D94F1D195AA300A08842 /* Bitwise DZTests */,
+				1B17D95A1D195AA300A08842 /* Bitwise DZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B17D9351D195AA300A08842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17D94A1D195AA300A08842 /* LaunchScreen.storyboard in Resources */,
+				1B17D9471D195AA300A08842 /* Assets.xcassets in Resources */,
+				1B17D9451D195AA300A08842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D94E1D195AA300A08842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D9591D195AA300A08842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B17D9331D195AA300A08842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17D9421D195AA300A08842 /* ViewController.m in Sources */,
+				1B17D93F1D195AA300A08842 /* AppDelegate.m in Sources */,
+				1B17D93C1D195AA300A08842 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D94C1D195AA300A08842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17D9551D195AA300A08842 /* Bitwise_DZTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17D9571D195AA300A08842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17D9601D195AA300A08842 /* Bitwise_DZUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B17D9521D195AA300A08842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B17D9361D195AA300A08842 /* Bitwise DZ */;
+			targetProxy = 1B17D9511D195AA300A08842 /* PBXContainerItemProxy */;
+		};
+		1B17D95D1D195AA300A08842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B17D9361D195AA300A08842 /* Bitwise DZ */;
+			targetProxy = 1B17D95C1D195AA300A08842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B17D9431D195AA300A08842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B17D9441D195AA300A08842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B17D9481D195AA300A08842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B17D9491D195AA300A08842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B17D9621D195AA300A08842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B17D9631D195AA300A08842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B17D9651D195AA300A08842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bitwise DZ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B17D9661D195AA300A08842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bitwise DZ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B17D9681D195AA300A08842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bitwise DZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitwise DZ.app/Bitwise DZ";
+			};
+			name = Debug;
+		};
+		1B17D9691D195AA300A08842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bitwise DZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitwise DZ.app/Bitwise DZ";
+			};
+			name = Release;
+		};
+		1B17D96B1D195AA300A08842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitwise DZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitwise DZ";
+			};
+			name = Debug;
+		};
+		1B17D96C1D195AA300A08842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bitwise DZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-2.Bitwise-DZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bitwise DZ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B17D9321D195AA300A08842 /* Build configuration list for PBXProject "Bitwise DZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17D9621D195AA300A08842 /* Debug */,
+				1B17D9631D195AA300A08842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B17D9641D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17D9651D195AA300A08842 /* Debug */,
+				1B17D9661D195AA300A08842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B17D9671D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17D9681D195AA300A08842 /* Debug */,
+				1B17D9691D195AA300A08842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B17D96A1D195AA300A08842 /* Build configuration list for PBXNativeTarget "Bitwise DZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17D96B1D195AA300A08842 /* Debug */,
+				1B17D96C1D195AA300A08842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B17D92F1D195AA300A08842 /* Project object */;
+}
